@@ -261,6 +261,9 @@
     height: 347px !important;
     width: 91%;
 }
+.hero-page {
+  padding: 85px 0px 0px 0px;
+}
   .homepage-right-card-1 h4 {
     font-size: 12px;
     padding: 5px;
@@ -374,7 +377,7 @@
       margin-bottom: 20px;
   }
   .use-cases-cards {
-      padding: 80px 10px 10px 10px;
+      padding: 100px 10px 10px 10px;
   }
   .use-cases-cards h3{
     font-size: 14px;
@@ -410,7 +413,8 @@
 }
 @media (max-width:400px) {
   .use-cases-cards {
-    width: 100%;
+    width: 78%;
+    padding-top: 35%;
 }
 }
 /* trending-news */
@@ -485,15 +489,22 @@
 }
 }
 @media (max-width:400px) {
+  .trenting-news-cards{
+    display: block;
+  }
+  .trenting-img img{
+    width:100%;
+    /* height: 197px; */
+}
+
+}
+@media (max-width:400px) {
   .trenting-news-heading h2 {
     font-size: 19px;
 }
-  .trenting-img img {
-    width: 115px;
-    height: 147px;
-}
 .trenting-news-cards-contend p {
   font-size: 8px;
+  margin-top: 10px;
 }
 .trenting-news-cards-contend h4 {
   padding-top: 26px;
@@ -903,7 +914,7 @@ tbody, td, tfoot, th, thead, tr {
       font-size: 20px;
     }
     .case-card {
-      width: 70%;
+      width: 90%;
       height: auto;
     }
     .card-inside-content {
@@ -919,9 +930,9 @@ tbody, td, tfoot, th, thead, tr {
     }
   
     .card-content h5 {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 400;
-    }
+  }
   
     .card-content p.meta {
       font-size: 10px;
@@ -941,9 +952,10 @@ tbody, td, tfoot, th, thead, tr {
     .usecase-title {
       font-size: 18px;
   }
-  .trenting-news-cards-contend h4{
+  .trenting-news-cards-contend h4 {
     font-size: 13px;
-  }
+    line-height: 20px;
+}
   .trenting-news-cards-contend h6{
     font-size: 10px;
   }
@@ -1092,6 +1104,20 @@ tbody, td, tfoot, th, thead, tr {
      display: flex;
    }
  }
+ @media (max-width:768px) {
+  .contact-phone, .contact-email {
+    flex-direction: row;
+}
+.follow-us {
+  margin-top: 20px;
+}
+.quick-links h4{
+  margin-left: 0px;
+}
+.quick-links-content{
+  padding-left: 0px;
+}
+ }
  @media (max-width:600px) {
    
    .contact-us h4 , .follow-us h4{
@@ -1148,6 +1174,5 @@ tbody, td, tfoot, th, thead, tr {
 }
 .contact-phone, .contact-email {
   display: flex;
-  flex-direction: row;
 }
 } 
